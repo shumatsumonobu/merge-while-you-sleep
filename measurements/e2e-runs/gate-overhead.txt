@@ -1,0 +1,12 @@
+measure.isolated.0: 298 ms exit=0
+measure.plain.0: 307 ms exit=0
+measure.isolated.1: 307 ms exit=0
+measure.plain.1: 282 ms exit=0
+measure.isolated.2: 303 ms exit=0
+measure.plain.2: 297 ms exit=0
+measure.isolated.3: 300 ms exit=0
+measure.plain.3: 292 ms exit=0
+measure.isolated.4: 311 ms exit=0
+measure.plain.4: 289 ms exit=0
+measure.median: isolated 303 ms, plain 292 ms, diff 11 ms
+measure.bwrap_true: 6 5 5 5 5 ms

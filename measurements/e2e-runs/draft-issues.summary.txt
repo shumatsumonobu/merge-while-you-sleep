@@ -1,0 +1,11 @@
+下書きから始めた Issue の人の操作（試験用のリポジトリの Issue #4、#6。測定の6本とは別。ディレクトリを整理する前の版で実行）
+人のアカウント（type が User）のイベントだけを数えた。生データは draft<番号>/issue.json、draft<番号>/comments.json、draft<番号>/timeline.json
+
+#4: 人の操作 3回 / Issue を出してから閉じるまで 2026-11-16T04:15:07Z → 2026-11-16T04:19:37Z
+  2026-11-16T04:15:07Z opened（テンプレートが下書きラベルを付けた）
+  2026-11-16T04:16:10Z commented
+  2026-11-16T04:17:07Z labeled merge-while-you-sleep: run
+#6: 人の操作 3回 / Issue を出してから閉じるまで 2026-11-16T04:55:18Z → 2026-11-16T04:59:15Z
+  2026-11-16T04:55:18Z opened（テンプレートが下書きラベルを付けた）
+  2026-11-16T04:56:15Z commented
+  2026-11-16T04:56:33Z labeled merge-while-you-sleep: run

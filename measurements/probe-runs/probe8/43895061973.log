@@ -1,0 +1,181 @@
+probe	Set up job	﻿2026-11-16T15:19:23.3012624Z Current runner version: '2.338.2'
+probe	Set up job	2026-11-16T15:19:23.3031553Z ##[group]Runner Image Provisioner
+probe	Set up job	2026-11-16T15:19:23.3032330Z Hosted Compute Agent
+probe	Set up job	2026-11-16T15:19:23.3032769Z Version: 20261103.629
+probe	Set up job	2026-11-16T15:19:23.3033272Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+probe	Set up job	2026-11-16T15:19:23.3033830Z Build Date: 2026-11-03T17:26:59Z
+probe	Set up job	2026-11-16T15:19:23.3034314Z Worker ID: {96ab21ae-3206-4166-92ca-1d3975f56427}
+probe	Set up job	2026-11-16T15:19:23.3034824Z Region: us-west-2
+probe	Set up job	2026-11-16T15:19:23.3035234Z Cloud: AWS
+probe	Set up job	2026-11-16T15:19:23.3035638Z ##[endgroup]
+probe	Set up job	2026-11-16T15:19:23.3036589Z ##[group]Operating System
+probe	Set up job	2026-11-16T15:19:23.3037069Z Ubuntu
+probe	Set up job	2026-11-16T15:19:23.3037497Z 24.04.5
+probe	Set up job	2026-11-16T15:19:23.3037875Z LTS
+probe	Set up job	2026-11-16T15:19:23.3038454Z ##[endgroup]
+probe	Set up job	2026-11-16T15:19:23.3038911Z ##[group]Runner Image
+probe	Set up job	2026-11-16T15:19:23.3039366Z Image: ubuntu-24.04
+probe	Set up job	2026-11-16T15:19:23.3039773Z Version: 20261111.127.1
+probe	Set up job	2026-11-16T15:19:23.3040553Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261111.127/images/ubuntu/Ubuntu2404-Readme.md
+probe	Set up job	2026-11-16T15:19:23.3041844Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261111.127
+probe	Set up job	2026-11-16T15:19:23.3042541Z ##[endgroup]
+probe	Set up job	2026-11-16T15:19:23.3043356Z ##[group]GITHUB_TOKEN Permissions
+probe	Set up job	2026-11-16T15:19:23.3044939Z Contents: read
+probe	Set up job	2026-11-16T15:19:23.3045363Z Metadata: read
+probe	Set up job	2026-11-16T15:19:23.3045766Z ##[endgroup]
+probe	Set up job	2026-11-16T15:19:23.3047274Z Secret source: Actions
+probe	Set up job	2026-11-16T15:19:23.3047927Z Cache mode: write
+probe	Set up job	2026-11-16T15:19:23.3048748Z Prepare workflow directory
+probe	Set up job	2026-11-16T15:19:23.3280558Z Prepare all required actions
+probe	Set up job	2026-11-16T15:19:23.3317017Z Getting action download info
+probe	Set up job	2026-11-16T15:19:23.6761662Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+probe	Set up job	2026-11-16T15:19:25.1985723Z Complete job name: probe
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-16T15:19:25.2713905Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2715516Z with:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2716321Z   persist-credentials: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2717478Z   repository: shumatsumonobu/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2725149Z   token: ***
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2725976Z   ssh-strict: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2726797Z   ssh-user: git
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2727564Z   clean: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2728549Z   sparse-checkout-cone-mode: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2729558Z   fetch-depth: 1
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2730402Z   fetch-tags: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2731226Z   show-progress: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2732044Z   lfs: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2732839Z   submodules: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2733690Z   set-safe-directory: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2734675Z   allow-unsafe-pr-checkout: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:25.2735827Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.0026906Z Syncing repository: shumatsumonobu/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.0028676Z ##[group]Getting Git version info
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.0029467Z Working directory is '/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial'
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.0030218Z [command]/usr/bin/git version
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1415325Z git version 2.56.1
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1430162Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1437971Z Temporarily overriding HOME='/home/runner/work/_temp/52edc20b-a1f2-4dd8-b345-8bd2ddffa745' before making global git config changes
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1439090Z Adding repository directory to the temporary git global config as a safe directory
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1442066Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1841245Z Deleting the contents of '/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial'
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1843486Z ##[group]Determining repository object format
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1844367Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1844933Z ##[group]Initializing the repository
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.1847757Z [command]/usr/bin/git init /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2595324Z hint: Using 'master' as the name for the initial branch. This default branch name
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2596034Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2596653Z hint: to use in all of your new repositories, which will suppress this warning,
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2597103Z hint: call:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2597451Z hint:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2597809Z hint: 	git config --global init.defaultBranch <name>
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2598130Z hint:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2598779Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2599263Z hint: 'development'. The just-created branch can be renamed via this command:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2599704Z hint:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2599990Z hint: 	git branch -m <name>
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2600299Z hint:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2600815Z hint: Disable this message with "git config set advice.defaultBranchName false"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2601591Z Initialized empty Git repository in /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2607662Z [command]/usr/bin/git remote add origin https://github.com/shumatsumonobu/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2647287Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2647848Z ##[group]Disabling automatic garbage collection
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2649727Z [command]/usr/bin/git config --local gc.auto 0
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2672612Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2673261Z ##[group]Setting up auth
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2673728Z Removing SSH command configuration
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2677075Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.2702160Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.5994675Z Removing HTTP extra header
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6001109Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6027158Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6171987Z Removing includeIf entries pointing to credentials config files
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6175588Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6205914Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6354234Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6381332Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path /home/runner/work/_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6403181Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6429160Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6460015Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6471997Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6472527Z ##[group]Fetching the repository
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:31.6477304Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +905c0a17c5ceada7c32005a2f892a58968d57178:refs/remotes/origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1404088Z From https://github.com/shumatsumonobu/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1405007Z  * [new ref]         905c0a17c5ceada7c32005a2f892a58968d57178 -> origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1411786Z [command]/usr/bin/git branch --list --remote origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1439807Z   origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1447619Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1465886Z 905c0a17c5ceada7c32005a2f892a58968d57178
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1468395Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1469099Z ##[group]Determining the checkout info
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1472850Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1473254Z [command]/usr/bin/git sparse-checkout disable
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1515253Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1535814Z ##[group]Checking out the ref
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1538545Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1607755Z Switched to a new branch 'main'
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1612828Z branch 'main' set up to track 'origin/main'.
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1615797Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1645931Z [command]/usr/bin/git log -1 --format=%H
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1664122Z 905c0a17c5ceada7c32005a2f892a58968d57178
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1670695Z ##[group]Removing auth
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1671237Z Removing SSH command configuration
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1673806Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1695877Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1842746Z Removing HTTP extra header
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1845347Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.1867254Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2009545Z Removing includeIf entries pointing to credentials config files
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2011665Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2031557Z includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2032418Z includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2033107Z includeif.gitdir:/github/workspace/.git.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2033537Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2036658Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2053287Z /home/runner/work/_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2060775Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-d9270100\-176e\-45fb\-96fd\-3daf1e3c99c4\.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2089252Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2105493Z /home/runner/work/_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2111202Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-d9270100\-176e\-45fb\-96fd\-3daf1e3c99c4\.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2136395Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2154184Z /github/runner_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2158733Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-d9270100\-176e\-45fb\-96fd\-3daf1e3c99c4\.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2181680Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2198161Z /github/runner_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2202902Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-d9270100\-176e\-45fb\-96fd\-3daf1e3c99c4\.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2225214Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2365488Z Removing credentials config '/home/runner/work/_temp/git-credentials-d9270100-176e-45fb-96fd-3daf1e3c99c4.config'
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:19:32.2370860Z ##[endgroup]
+probe	Run node .github/probe/probe8.mjs	﻿2026-11-16T15:19:32.2519345Z ##[group]Run node .github/probe/probe8.mjs
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:19:32.2519702Z [36;1mnode .github/probe/probe8.mjs[0m
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:19:32.5952760Z shell: /usr/bin/bash -e {0}
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:19:32.5953231Z env:
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:19:32.5954031Z   CLAUDE_CODE_OAUTH_TOKEN: ***
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:19:32.5954269Z ##[endgroup]
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:06.1591634Z host.id: uid=1001(runner) gid=1001(runner) groups=1001(runner),4(adm),100(users),117(docker),999(systemd-journal)
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:06.1728714Z host.docker_sock: srw-rw---- 1 root docker 0 Nov 16 14:54 /run/docker.sock
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4348035Z claude.exit: 0
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4557832Z sb| id: uid=1001(runner) gid=1001(runner) groups=1001(runner),65534(nogroup)
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4558506Z sb| sudo_n_true: sudo: /etc/sudo.conf is owned by uid 65534, should be 0
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4559223Z sb| sudo: The "no new privileges" flag is set, which prevents sudo from running as root.
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4559878Z sb| sudo: If sudo is running in a container, you may need to adjust the container configuration to disable the flag.
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4560457Z sb| exit=1
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4560834Z sb| sudo_n_id: sudo: If sudo is running in a container, you may need to adjust the container configuration to disable the flag.
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4561306Z sb| no_new_privs: NoNewPrivs:	1
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4561561Z sb| seccomp: Seccomp:	2
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4561869Z sb| docker_sock: ls: cannot access '/run/docker.sock': No such file or directory
+probe	Run node .github/probe/probe8.mjs	2026-11-16T15:20:10.4562239Z sb| 
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-16T15:20:10.5037093Z Post job cleanup.
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5676619Z [command]/usr/bin/git version
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5705688Z git version 2.56.1
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5728995Z Temporarily overriding HOME='/home/runner/work/_temp/1cecb690-4d0b-4e2a-b335-506d5a52e543' before making global git config changes
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5730270Z Adding repository directory to the temporary git global config as a safe directory
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5732361Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5751989Z Removing SSH command configuration
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5756435Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5780401Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5930402Z Removing HTTP extra header
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5933997Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.5954759Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.6098887Z Removing includeIf entries pointing to credentials config files
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.6102204Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T15:20:10.6124307Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+probe	Complete job	﻿2026-11-16T15:20:10.6392603Z Cleaning up orphan processes

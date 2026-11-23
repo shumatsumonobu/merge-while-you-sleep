@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Issue 1件の流れ</title>
+<!--
+  README の「概要」の図。流れの出典は docs/design/run.md、gates.md、escalation.md
+  意図: 売りは「Claude Code が書いたものを、コマンドが判定する」。Issue 1件がどこを通り、どこで止まり、どこへ戻るかを線の通り道で見せる
+  形: 上から下へ進む1本の線。README の幅（800 px 台）に縮めても注記が読めるよう、幅を 1400 にして縦に並べる
+  部品:
+    見出し — 「Claude Code が書き、」をシアン、「コマンドが判定する」を白で置く。見出しがそのまま色の凡例になる
+    人 — 中を地の色で抜いた丸。人がすることは、Issue を書く、答える、承認する
+    Claude Code の工程 — シアンの小さい駅
+    ゲート — 線を横切る太い白の棒
+    下書き — 完了条件まで書かなかったときだけ経由する分岐として、本線の左に置く
+    戻り線 — ゲートが失敗したか、レビューが修正を求めたら、修正の工程を経てゲートの前へ戻る
+    引き継ぎ — 止まる所から左の1本に集め、下の「人に引き継ぐ」へ出す
+    括弧 — 右に、作業と提出のジョブの範囲
+  色: 白 #F1F5F9 とシアン #22D3EE の2色だけ。シアンは Claude Code にだけ使う。地は夜の紺 #0B1120
+  flow.png は、この HTML の <div class="page"> を2倍の解像度で描き出した画像。PNG を直接編集せず、HTML を修正して描き出し直す
+    cd tools/figure && npm ci && npx playwright install chromium   （初回だけ）
+    node tools/figure/render.mjs figures/flow.html figures/flow.png
+  文字: Noto Sans JP。見出し・ゲートの名前 900、駅の名前 700、それ以外 500。約物を詰める（palt）
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #0B1120; }
+  .page { position: relative; width: 1400px; height: 2440px; background: #0B1120; font-family: "Noto Sans JP", sans-serif; }
+  svg { display: block; font-family: "Noto Sans JP", sans-serif; font-feature-settings: "palt"; }
+  text { fill: #F1F5F9; font-weight: 500; }
+  .ai { fill: #22D3EE; }
+  .kicker { font-size: 30px; font-weight: 700; }
+  .head { font-size: 50px; font-weight: 900; letter-spacing: -0.02em; }
+  .sub { font-size: 30px; }
+  .st { font-size: 42px; font-weight: 700; }
+  .gate { font-size: 42px; font-weight: 900; }
+  .note { font-size: 30px; }
+  .out { font-size: 50px; font-weight: 900; }
+  .edge { font-size: 28px; font-weight: 900; paint-order: stroke; stroke: #0B1120; stroke-width: 12px; stroke-linejoin: round; }
+  .group { font-size: 32px; font-weight: 900; writing-mode: vertical-rl; }
+</style>
+</head>
+<body>
+<div class="page">
+<svg width="1400" height="2440" viewBox="0 0 1400 2440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="ink" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3" markerHeight="3" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F1F5F9"/></marker>
+    <marker id="ink-s" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F1F5F9"/></marker>
+  </defs>
+
+  <!-- 見出し -->
+  <text class="kicker" x="64" y="76">Issue 1件の流れ</text>
+  <text class="head ai" x="62" y="150">Claude Code が書き、</text>
+  <text class="head" x="62" y="212">コマンドが判定する</text>
+  <text class="sub" x="64" y="270">人がするのは、書くことと承認すること（丸）</text>
+  <text class="sub" x="64" y="310">合否は、コマンドの終了コードと GitHub が決める</text>
+
+  <g transform="translate(0,-100)">
+
+  <!-- 本線 -->
+  <path d="M520,490 V2262" stroke="#F1F5F9" stroke-width="10" fill="none" marker-end="url(#ink)"/>
+
+  <!-- Issue を書く -->
+  <circle cx="520" cy="470" r="20" fill="#0B1120" stroke="#F1F5F9" stroke-width="8"/>
+  <text class="st" x="600" y="484">Issue を書く</text>
+  <text class="note" x="600" y="526">人がやりたいことを書く</text>
+
+  <!-- 下書きの寄り道（完了条件を書かなかったとき） -->
+  <path d="M520,520 Q520,540 500,540 H280 Q260,540 260,560 V800 Q260,820 280,820 H500 Q520,820 520,840" stroke="#F1F5F9" stroke-width="6" fill="none"/>
+  <text class="edge" x="390" y="596" text-anchor="middle">やりたいこと</text>
+  <text class="edge" x="390" y="632" text-anchor="middle">だけ書いた</text>
+  <text class="edge" x="550" y="668">完了条件まで書いた</text>
+  <rect x="236" y="614" width="48" height="12" fill="#22D3EE"/>
+  <text class="st ai" x="220" y="634" text-anchor="end">下書き</text>
+  <text class="note" x="220" y="676" text-anchor="end">案と質問を</text>
+  <text class="note" x="220" y="712" text-anchor="end">コメント</text>
+  <circle cx="260" cy="760" r="16" fill="#0B1120" stroke="#F1F5F9" stroke-width="6"/>
+  <text class="st" x="220" y="774" text-anchor="end">答える</text>
+  <text class="note" x="220" y="816" text-anchor="end">コメントで</text>
+
+  <!-- 承認 -->
+  <circle cx="520" cy="880" r="20" fill="#0B1120" stroke="#F1F5F9" stroke-width="8"/>
+  <text class="st" x="600" y="894">承認</text>
+  <text class="note" x="600" y="936">起動ラベルを付ける</text>
+  <text class="note" x="600" y="972">完了条件まで書いた Issue は作成するだけ</text>
+
+  <!-- 事前確認 -->
+  <rect x="468" y="998" width="104" height="24" fill="#F1F5F9"/>
+  <text class="gate" x="600" y="1030">事前確認</text>
+  <text class="note" x="600" y="1072">実行待ちのあと、設定と権限を確かめる</text>
+  <text class="note" x="600" y="1108">承認した完了条件を記録</text>
+
+  <!-- 着手前のゲート -->
+  <rect x="468" y="1148" width="104" height="24" fill="#F1F5F9"/>
+  <text class="gate" x="600" y="1176">着手前のゲート</text>
+  <text class="note" x="600" y="1218">main のままでテストが成功するか</text>
+
+  <!-- 計画 -->
+  <rect x="496" y="1274" width="48" height="12" fill="#22D3EE"/>
+  <text class="st ai" x="600" y="1294">計画</text>
+  <text class="note" x="600" y="1336">手順と、変更するファイル</text>
+
+  <!-- テスト作成 -->
+  <rect x="496" y="1394" width="48" height="12" fill="#22D3EE"/>
+  <text class="st ai" x="600" y="1414">テスト作成</text>
+  <text class="note" x="600" y="1456">完了条件をテストにする</text>
+
+  <!-- 失敗の確認 -->
+  <rect x="468" y="1508" width="104" height="24" fill="#F1F5F9"/>
+  <text class="gate" x="600" y="1534">失敗の確認</text>
+  <text class="note" x="600" y="1576">実装が無いと、新しいテストが失敗するか</text>
+
+  <!-- 実装 -->
+  <rect x="496" y="1634" width="48" height="12" fill="#22D3EE"/>
+  <text class="st ai" x="600" y="1654">実装</text>
+  <text class="note" x="600" y="1696">テストは変更させない</text>
+
+  <!-- ゲート -->
+  <rect x="468" y="1748" width="104" height="24" fill="#F1F5F9"/>
+  <text class="gate" x="600" y="1774">ゲート</text>
+  <text class="note" x="600" y="1816">テストの凍結、lint、型検査、テスト</text>
+
+  <!-- レビュー -->
+  <rect x="496" y="1874" width="48" height="12" fill="#22D3EE"/>
+  <text class="st ai" x="600" y="1894">レビュー</text>
+  <text class="note" x="600" y="1936">指摘の一覧をコードが判定</text>
+
+  <!-- 範囲 -->
+  <rect x="468" y="1998" width="104" height="24" fill="#F1F5F9"/>
+  <text class="gate" x="600" y="2024">範囲</text>
+  <text class="note" x="600" y="2066">変更したパスが自動マージの範囲か</text>
+
+  <!-- CI -->
+  <rect x="468" y="2148" width="104" height="24" fill="#F1F5F9"/>
+  <text class="gate" x="600" y="2174">CI</text>
+  <text class="note" x="600" y="2216">PR に対して新しいマシンで</text>
+
+  <!-- マージ -->
+  <text class="out" x="566" y="2300">マージ</text>
+  <text class="note" x="566" y="2344">元からある CD がデプロイ</text>
+
+  <!-- 括弧: 作業と提出のジョブ -->
+  <path d="M1236,1140 H1256 V1950 H1236" stroke="#F1F5F9" stroke-width="3" fill="none"/>
+  <text class="group" x="1300" y="1360">作業のジョブ</text>
+  <path d="M1236,1990 H1256 V2230 H1236" stroke="#F1F5F9" stroke-width="3" fill="none"/>
+  <text class="group" x="1300" y="2050">提出</text>
+
+  <!-- 戻り線: ゲートが失敗したか、レビューが修正を求めたら、修正の工程を経てゲートの前へ戻る -->
+  <path d="M468,1760 H420" stroke="#F1F5F9" stroke-width="6" fill="none"/>
+  <path d="M496,1880 H440 Q420,1880 420,1860 V1720 Q420,1700 440,1700 H506" stroke="#F1F5F9" stroke-width="6" fill="none" stroke-linejoin="round" marker-end="url(#ink-s)"/>
+  <rect x="396" y="1814" width="48" height="12" fill="#22D3EE"/>
+  <text class="st ai" x="380" y="1834" text-anchor="end">修正</text>
+  <text class="note" x="384" y="1876" text-anchor="end">出力と指摘を渡す</text>
+
+  <!-- 人への引き継ぎ: 止まる所から左の1本に集める -->
+  <path d="M468,1010 H140 Q120,1010 120,1030 V2380" stroke="#F1F5F9" stroke-width="6" fill="none" stroke-linejoin="round" marker-end="url(#ink-s)"/>
+  <path d="M468,1160 H120" stroke="#F1F5F9" stroke-width="6" fill="none"/>
+  <path d="M420,1860 V1930 Q420,1950 400,1950 H120" stroke="#F1F5F9" stroke-width="6" fill="none"/>
+  <path d="M468,2010 H120" stroke="#F1F5F9" stroke-width="6" fill="none"/>
+  <path d="M468,2160 H120" stroke="#F1F5F9" stroke-width="6" fill="none"/>
+  <text class="edge" x="440" y="996" text-anchor="end">設定が足りない</text>
+  <text class="edge" x="440" y="1146" text-anchor="end">main のテストが失敗する</text>
+  <text class="edge" x="400" y="1936" text-anchor="end">上限（反復3回など）</text>
+  <text class="edge" x="440" y="1996" text-anchor="end">範囲の外 → 人がマージ</text>
+  <text class="edge" x="440" y="2146" text-anchor="end">CI が失敗した</text>
+
+  <text class="out" x="64" y="2450">人に引き継ぐ</text>
+  <text class="note" x="64" y="2494">理由と次にやることを Issue にコメント。起動ラベルを付け直すと、続きから進める</text>
+  </g>
+</svg>
+</div>
+</body>
+</html>

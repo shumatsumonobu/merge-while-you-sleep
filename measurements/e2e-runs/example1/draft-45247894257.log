@@ -1,0 +1,43 @@
+notify	Set up job	﻿2026-11-23T19:20:28.5645191Z Current runner version: '2.338.2'
+notify	Set up job	2026-11-23T19:20:28.5664655Z ##[group]Runner Image Provisioner
+notify	Set up job	2026-11-23T19:20:28.5665451Z Hosted Compute Agent
+notify	Set up job	2026-11-23T19:20:28.5665877Z Version: 20261111.635
+notify	Set up job	2026-11-23T19:20:28.5666325Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+notify	Set up job	2026-11-23T19:20:28.5666909Z Build Date: 2026-11-11T01:49:01Z
+notify	Set up job	2026-11-23T19:20:28.5667414Z Worker ID: {ac9b2fe0-bbac-4eee-800a-fe76c115a125}
+notify	Set up job	2026-11-23T19:20:28.5667974Z Region: us-west-2
+notify	Set up job	2026-11-23T19:20:28.5668367Z Cloud: AWS
+notify	Set up job	2026-11-23T19:20:28.5668986Z ##[endgroup]
+notify	Set up job	2026-11-23T19:20:28.5670357Z ##[group]Operating System
+notify	Set up job	2026-11-23T19:20:28.5670853Z Ubuntu
+notify	Set up job	2026-11-23T19:20:28.5671225Z 24.04.5
+notify	Set up job	2026-11-23T19:20:28.5671598Z LTS
+notify	Set up job	2026-11-23T19:20:28.5671974Z ##[endgroup]
+notify	Set up job	2026-11-23T19:20:28.5672541Z ##[group]Runner Image
+notify	Set up job	2026-11-23T19:20:28.5672954Z Image: ubuntu-24.04
+notify	Set up job	2026-11-23T19:20:28.5673381Z Version: 20261116.133.1
+notify	Set up job	2026-11-23T19:20:28.5674143Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261116.133/images/ubuntu/Ubuntu2404-Readme.md
+notify	Set up job	2026-11-23T19:20:28.5675430Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261116.133
+notify	Set up job	2026-11-23T19:20:28.5676148Z ##[endgroup]
+notify	Set up job	2026-11-23T19:20:28.5677002Z ##[group]GITHUB_TOKEN Permissions
+notify	Set up job	2026-11-23T19:20:28.5678987Z Actions: read
+notify	Set up job	2026-11-23T19:20:28.5679439Z Issues: write
+notify	Set up job	2026-11-23T19:20:28.5679846Z Metadata: read
+notify	Set up job	2026-11-23T19:20:28.5680297Z ##[endgroup]
+notify	Set up job	2026-11-23T19:20:28.5682023Z Secret source: Actions
+notify	Set up job	2026-11-23T19:20:28.5682708Z Cache mode: read
+notify	Set up job	2026-11-23T19:20:28.5683320Z Prepare workflow directory
+notify	Set up job	2026-11-23T19:20:28.6072735Z Prepare all required actions
+notify	Set up job	2026-11-23T19:20:28.6124321Z Getting action download info
+notify	Set up job	2026-11-23T19:20:28.9506479Z Download action repository 'shumatsumonobu/merge-while-you-sleep@94932044cdab57e8d1a43ec3110cd93f6cb9201a' (SHA:94932044cdab57e8d1a43ec3110cd93f6cb9201a)
+notify	Set up job	2026-11-23T19:20:31.2185962Z Complete job name: notify
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	﻿2026-11-23T19:20:31.2715724Z ##[group]Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	2026-11-23T19:20:31.2716837Z with:
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	2026-11-23T19:20:31.2717346Z   run_workflow: merge-while-you-sleep-run.yml
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	2026-11-23T19:20:31.2720799Z   github_token: ***
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	2026-11-23T19:20:31.2721406Z env:
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	2026-11-23T19:20:31.2721942Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	2026-11-23T19:20:31.2722717Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	2026-11-23T19:20:31.2723531Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+notify	Run shumatsumonobu/merge-while-you-sleep/actions/notify@94932044cdab57e8d1a43ec3110cd93f6cb9201a	2026-11-23T19:20:31.2724214Z ##[endgroup]
+notify	Complete job	﻿2026-11-23T19:20:35.9692568Z Cleaning up orphan processes

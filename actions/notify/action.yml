@@ -1,0 +1,17 @@
+name: merge-while-you-sleep-notify
+description: 実行待ちの通知のジョブ。起動ラベルが付いたら、すぐ「実行待ちに入りました」とコメントする
+author: shumatsumonobu
+
+inputs:
+  github_token:
+    description: Issue へのコメントと、実行待ちの実行の数を数えるのに使う
+    required: false
+    default: ${{ github.token }}
+  run_workflow:
+    description: 実行用のワークフローのファイル名（実行待ちの数を数えるため）
+    required: false
+    default: merge-while-you-sleep-run.yml
+
+runs:
+  using: node24
+  main: notify.mjs

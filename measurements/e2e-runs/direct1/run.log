@@ -1,0 +1,689 @@
+preflight	Set up job	﻿2026-11-23T13:49:01.7724511Z Current runner version: '2.338.2'
+preflight	Set up job	2026-11-23T13:49:01.7753856Z ##[group]Runner Image Provisioner
+preflight	Set up job	2026-11-23T13:49:01.7755346Z Hosted Compute Agent
+preflight	Set up job	2026-11-23T13:49:01.7756404Z Version: 20261111.635
+preflight	Set up job	2026-11-23T13:49:01.7757478Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+preflight	Set up job	2026-11-23T13:49:01.7758700Z Build Date: 2026-11-11T01:49:01Z
+preflight	Set up job	2026-11-23T13:49:01.7759941Z Worker ID: {001762b8-0d0d-4d76-aab6-b18d1c814fb9}
+preflight	Set up job	2026-11-23T13:49:01.7761159Z Region: westus
+preflight	Set up job	2026-11-23T13:49:01.7762415Z Cloud: Azure
+preflight	Set up job	2026-11-23T13:49:01.7763425Z ##[endgroup]
+preflight	Set up job	2026-11-23T13:49:01.7765239Z ##[group]Operating System
+preflight	Set up job	2026-11-23T13:49:01.7766488Z Ubuntu
+preflight	Set up job	2026-11-23T13:49:01.7767464Z 24.04.5
+preflight	Set up job	2026-11-23T13:49:01.7768359Z LTS
+preflight	Set up job	2026-11-23T13:49:01.7769371Z ##[endgroup]
+preflight	Set up job	2026-11-23T13:49:01.7770341Z ##[group]Runner Image
+preflight	Set up job	2026-11-23T13:49:01.7771615Z Image: ubuntu-24.04
+preflight	Set up job	2026-11-23T13:49:01.7772644Z Version: 20261116.376.1
+preflight	Set up job	2026-11-23T13:49:01.7774290Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261116.376/images/ubuntu/Ubuntu2404-Readme.md
+preflight	Set up job	2026-11-23T13:49:01.7776830Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261116.376
+preflight	Set up job	2026-11-23T13:49:01.7778284Z ##[endgroup]
+preflight	Set up job	2026-11-23T13:49:01.7780196Z ##[group]GITHUB_TOKEN Permissions
+preflight	Set up job	2026-11-23T13:49:01.7782738Z Actions: read
+preflight	Set up job	2026-11-23T13:49:01.7783859Z Issues: write
+preflight	Set up job	2026-11-23T13:49:01.7784800Z Metadata: read
+preflight	Set up job	2026-11-23T13:49:01.7786047Z ##[endgroup]
+preflight	Set up job	2026-11-23T13:49:01.7788909Z Secret source: Actions
+preflight	Set up job	2026-11-23T13:49:01.7790527Z Cache mode: read
+preflight	Set up job	2026-11-23T13:49:01.7791874Z Prepare workflow directory
+preflight	Set up job	2026-11-23T13:49:01.8410118Z Prepare all required actions
+preflight	Set up job	2026-11-23T13:49:01.8461024Z Getting action download info
+preflight	Set up job	2026-11-23T13:49:02.1758136Z Download action repository 'shumatsumonobu/mwys-src-check@68fa179cef517e7b6e460adb34eea6bf12a1028a' (SHA:68fa179cef517e7b6e460adb34eea6bf12a1028a)
+preflight	Set up job	2026-11-23T13:49:02.8644214Z Complete job name: preflight
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	﻿2026-11-23T13:49:02.9510533Z ##[group]Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9512526Z with:
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9513283Z   app_client_id: <APP_CLIENT_ID>
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9528334Z   app_private_key: ***
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9533502Z   github_token: ***
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9534213Z   merge_method: squash
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9535022Z   draft_workflow: merge-while-you-sleep-draft.yml
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9536308Z env:
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9537141Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9538268Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9539456Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9540601Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9541671Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9542484Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9543286Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:02.9544120Z ##[endgroup]
+preflight	Run shumatsumonobu/mwys-src-check/actions/preflight@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:09.4444279Z 事前確認: 進めてよい（最初から）
+preflight	Complete job	﻿2026-11-23T13:49:09.6809442Z Evaluate and set job outputs
+preflight	Complete job	2026-11-23T13:49:09.6820098Z Set output 'proceed'
+preflight	Complete job	2026-11-23T13:49:09.6822608Z Set output 'done'
+preflight	Complete job	2026-11-23T13:49:09.6823861Z Set output 'base_commit'
+preflight	Complete job	2026-11-23T13:49:09.6826758Z Set output 'approval'
+preflight	Complete job	2026-11-23T13:49:09.6827950Z Cleaning up orphan processes
+work	Set up job	﻿2026-11-23T13:49:15.3258935Z Current runner version: '2.338.2'
+work	Set up job	2026-11-23T13:49:15.3286553Z ##[group]Runner Image Provisioner
+work	Set up job	2026-11-23T13:49:15.3287432Z Hosted Compute Agent
+work	Set up job	2026-11-23T13:49:15.3288065Z Version: 20261111.635
+work	Set up job	2026-11-23T13:49:15.3288671Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+work	Set up job	2026-11-23T13:49:15.3289406Z Build Date: 2026-11-11T01:49:01Z
+work	Set up job	2026-11-23T13:49:15.3290107Z Worker ID: {1d4ae72e-39ae-424d-96dc-df4cad1e66fd}
+work	Set up job	2026-11-23T13:49:15.3290797Z Region: us-east-1
+work	Set up job	2026-11-23T13:49:15.3291346Z Cloud: AWS
+work	Set up job	2026-11-23T13:49:15.3291912Z ##[endgroup]
+work	Set up job	2026-11-23T13:49:15.3293696Z ##[group]Operating System
+work	Set up job	2026-11-23T13:49:15.3294376Z Ubuntu
+work	Set up job	2026-11-23T13:49:15.3294867Z 24.04.5
+work	Set up job	2026-11-23T13:49:15.3295472Z LTS
+work	Set up job	2026-11-23T13:49:15.3296012Z ##[endgroup]
+work	Set up job	2026-11-23T13:49:15.3296581Z ##[group]Runner Image
+work	Set up job	2026-11-23T13:49:15.3297226Z Image: ubuntu-24.04
+work	Set up job	2026-11-23T13:49:15.3297776Z Version: 20261116.133.1
+work	Set up job	2026-11-23T13:49:15.3298881Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261116.133/images/ubuntu/Ubuntu2404-Readme.md
+work	Set up job	2026-11-23T13:49:15.3300715Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261116.133
+work	Set up job	2026-11-23T13:49:15.3301685Z ##[endgroup]
+work	Set up job	2026-11-23T13:49:15.3303198Z ##[group]GITHUB_TOKEN Permissions
+work	Set up job	2026-11-23T13:49:15.3305515Z Actions: read
+work	Set up job	2026-11-23T13:49:15.3306112Z Contents: read
+work	Set up job	2026-11-23T13:49:15.3306718Z Issues: write
+work	Set up job	2026-11-23T13:49:15.3307231Z Metadata: read
+work	Set up job	2026-11-23T13:49:15.3307781Z ##[endgroup]
+work	Set up job	2026-11-23T13:49:15.3310021Z Secret source: Actions
+work	Set up job	2026-11-23T13:49:15.3311057Z Cache mode: read
+work	Set up job	2026-11-23T13:49:15.3311726Z Prepare workflow directory
+work	Set up job	2026-11-23T13:49:15.3848517Z Prepare all required actions
+work	Set up job	2026-11-23T13:49:15.3904896Z Getting action download info
+work	Set up job	2026-11-23T13:49:15.5780621Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+work	Set up job	2026-11-23T13:49:17.0623838Z Download action repository 'actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1' (SHA:949feb2413d6458794dcd2491c4babbbce0c15c1)
+work	Set up job	2026-11-23T13:49:17.2543292Z Download action repository 'shumatsumonobu/mwys-src-check@68fa179cef517e7b6e460adb34eea6bf12a1028a' (SHA:68fa179cef517e7b6e460adb34eea6bf12a1028a)
+work	Set up job	2026-11-23T13:49:17.4914693Z Download action repository 'actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9' (SHA:cf430e030ddbb5b0abf93d22962f4752f3646cd9)
+work	Set up job	2026-11-23T13:49:17.8097040Z Complete job name: work
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-23T13:49:17.8820705Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8822479Z with:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8823359Z   ref: 608b39c744148beaa0be417a650bacb4054632ae
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8824400Z   persist-credentials: false
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8825318Z   fetch-depth: 0
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8826308Z   repository: shumatsumonobu/merge-while-you-sleep-trial
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8832810Z   token: ***
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8833636Z   ssh-strict: true
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8834468Z   ssh-user: git
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8835232Z   clean: true
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8836069Z   sparse-checkout-cone-mode: true
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8837018Z   fetch-tags: false
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8837816Z   show-progress: true
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8838597Z   lfs: false
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8839426Z   submodules: false
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8840218Z   set-safe-directory: true
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8841098Z   allow-unsafe-pr-checkout: false
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8842327Z env:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8843278Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8844758Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8846194Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8847587Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8848629Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8849579Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8850575Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:17.8851467Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.7388117Z Syncing repository: shumatsumonobu/merge-while-you-sleep-trial
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.7389292Z ##[group]Getting Git version info
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.7389755Z Working directory is '/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial'
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.7390391Z [command]/usr/bin/git version
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.9939897Z git version 2.56.1
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.9954538Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.9963885Z Temporarily overriding HOME='/home/runner/work/_temp/945aef17-e5a7-4df0-80f3-32234a5d22eb' before making global git config changes
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.9964627Z Adding repository directory to the temporary git global config as a safe directory
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:20.9968333Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.0406166Z Deleting the contents of '/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial'
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.0408416Z ##[group]Determining repository object format
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.0409846Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.0410208Z ##[group]Initializing the repository
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.0413909Z [command]/usr/bin/git init /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1158412Z hint: Using 'master' as the name for the initial branch. This default branch name
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1158980Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1159397Z hint: to use in all of your new repositories, which will suppress this warning,
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1159702Z hint: call:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1159903Z hint:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1160172Z hint: 	git config --global init.defaultBranch <name>
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1160403Z hint:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1160628Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1160991Z hint: 'development'. The just-created branch can be renamed via this command:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1161279Z hint:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1161436Z hint: 	git branch -m <name>
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1161613Z hint:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1161856Z hint: Disable this message with "git config set advice.defaultBranchName false"
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1170801Z Initialized empty Git repository in /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1179438Z [command]/usr/bin/git remote add origin https://github.com/shumatsumonobu/merge-while-you-sleep-trial
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1231137Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1231634Z ##[group]Disabling automatic garbage collection
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1233725Z [command]/usr/bin/git config --local gc.auto 0
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1257941Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1258322Z ##[group]Setting up auth
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1261735Z Removing SSH command configuration
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1262605Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.1293885Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4264407Z Removing HTTP extra header
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4271276Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4293086Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4446140Z Removing includeIf entries pointing to credentials config files
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4452897Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4478217Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4633698Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4664295Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path /home/runner/work/_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4689248Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4714345Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4737537Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4759264Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4759707Z ##[group]Fetching the repository
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.4765272Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8791725Z From https://github.com/shumatsumonobu/merge-while-you-sleep-trial
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8792569Z  * [new branch]      main       -> origin/main
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8793021Z  * [new branch]      probe/ub-api-43807822558 -> origin/probe/ub-api-43807822558
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8793507Z  * [new branch]      probe/ub-push-43807822558 -> origin/probe/ub-push-43807822558
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8803496Z [command]/usr/bin/git rev-parse --verify --quiet 608b39c744148beaa0be417a650bacb4054632ae^{object}
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8823571Z 608b39c744148beaa0be417a650bacb4054632ae
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8826245Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8826912Z ##[group]Determining the checkout info
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8827603Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8831061Z [command]/usr/bin/git sparse-checkout disable
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8899671Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8924148Z ##[group]Checking out the ref
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8928329Z [command]/usr/bin/git checkout --progress --force 608b39c744148beaa0be417a650bacb4054632ae
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8995790Z Note: switching to '608b39c744148beaa0be417a650bacb4054632ae'.
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8996417Z 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8996598Z You are in 'detached HEAD' state. You can look around, make experimental
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8996956Z changes and commit them, and you can discard any commits you make in this
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8997294Z state without impacting any branches by switching back to a branch.
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8997483Z 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8997624Z If you want to create a new branch to retain commits you create, you may
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8997941Z do so (now or later) by using -c with the switch command. Example:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8998137Z 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8998221Z   git switch -c <new-branch-name>
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8998388Z 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8998476Z Or undo this operation with:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8998590Z 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8998684Z   git switch -
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8998774Z 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8998933Z Turn off this advice by setting config variable advice.detachedHead to false
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8999149Z 
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.8999596Z HEAD is now at 608b39c ワークフロー: 導入の手順の形（別のリポジトリの action を uses で呼び出す）に入れ替える
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9006672Z ##[endgroup]
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9040835Z [command]/usr/bin/git log -1 --format=%H
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9059922Z 608b39c744148beaa0be417a650bacb4054632ae
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9065946Z ##[group]Removing auth
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9066297Z Removing SSH command configuration
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9069708Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9093759Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9243854Z Removing HTTP extra header
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9246644Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9270346Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9418979Z Removing includeIf entries pointing to credentials config files
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9421618Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9444309Z includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9445111Z includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9445655Z includeif.gitdir:/github/workspace/.git.path
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9445954Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9451937Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9467873Z /home/runner/work/_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9474521Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-9e2d2d44\-26b6\-4c25\-8835\-5e8b5d953402\.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9499427Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9516897Z /home/runner/work/_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9522644Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-9e2d2d44\-26b6\-4c25\-8835\-5e8b5d953402\.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9547391Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9566036Z /github/runner_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9569704Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-9e2d2d44\-26b6\-4c25\-8835\-5e8b5d953402\.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9594700Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9611881Z /github/runner_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9615806Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-9e2d2d44\-26b6\-4c25\-8835\-5e8b5d953402\.config
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9638951Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9785152Z Removing credentials config '/home/runner/work/_temp/git-credentials-9e2d2d44-26b6-4c25-8835-5e8b5d953402.config'
+work	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:49:21.9793657Z ##[endgroup]
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	﻿2026-11-23T13:49:21.9994483Z ##[group]Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9994840Z with:
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9995052Z   node-version: 24
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9995288Z   check-latest: false
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9997020Z   token: ***
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9997299Z   package-manager-cache: true
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9997555Z env:
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9997826Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9998323Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9998749Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9999109Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9999402Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9999666Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:21.9999941Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:22.0000226Z ##[endgroup]
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:22.2998028Z Found in cache @ /opt/hostedtoolcache/node/24.22.3/x64
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:24.0258311Z ##[group]Environment details
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:27.2501300Z node: v24.22.3
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:27.2501618Z npm: 11.19.1
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:27.2501796Z yarn: 1.22.22
+work	Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	2026-11-23T13:49:27.2502327Z ##[endgroup]
+work	Run npm ci	﻿2026-11-23T13:49:27.2589623Z ##[group]Run npm ci
+work	Run npm ci	2026-11-23T13:49:27.2589890Z [36;1mnpm ci[0m
+work	Run npm ci	2026-11-23T13:49:27.4359157Z shell: /usr/bin/bash -e {0}
+work	Run npm ci	2026-11-23T13:49:27.4359449Z env:
+work	Run npm ci	2026-11-23T13:49:27.4359712Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+work	Run npm ci	2026-11-23T13:49:27.4360068Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+work	Run npm ci	2026-11-23T13:49:27.4360397Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+work	Run npm ci	2026-11-23T13:49:27.4360697Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+work	Run npm ci	2026-11-23T13:49:27.4360922Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+work	Run npm ci	2026-11-23T13:49:27.4361126Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+work	Run npm ci	2026-11-23T13:49:27.4361321Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+work	Run npm ci	2026-11-23T13:49:27.4361510Z ##[endgroup]
+work	Run npm ci	2026-11-23T13:49:29.2687077Z 
+work	Run npm ci	2026-11-23T13:49:29.2693075Z up to date, audited 1 package in 2s
+work	Run npm ci	2026-11-23T13:49:29.2693434Z 
+work	Run npm ci	2026-11-23T13:49:29.2693578Z found 0 vulnerabilities
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	﻿2026-11-23T13:49:29.2939104Z ##[group]Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2939488Z with:
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2939995Z   claude_code_oauth_token: ***
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2940215Z   test_command: npm test
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2940427Z   base_commit: 608b39c744148beaa0be417a650bacb4054632ae
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2941753Z   approval: {"issue":36,"title":"center を追加する","source":"template","labeled_by":"shumatsumonobu","labeled_at":"2026-11-23T13:48:55.000Z","criteria":["center(\"ab\", 6) は \"  ab  \" を返す","center(\"abc\", 6) は \" abc  \" を返す（左右で空白の数が合わないときは右を1つ多くする）","center(\"abcdef\", 4) は \"abcdef\" を返す（width 以下に縮めない）","center(\"\", 3) は \"   \" を返す","width が 0 以上の整数でないとき（-1、1.5、NaN）は RangeError を投げる","新しいテストのファイルに node:test のテストがあり、npm test で既存のテストも含めて全部通る"],"out_of_scope":["既存の関数の変更、既存のテストのファイルの変更、全角文字の幅の扱い、s が文字列以外のときの扱い"],"hash":"be2c05c73c45b8d68ba10084550bcf40ed5748a298c58eed07b8406d275200b6"}
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2944779Z   github_token: ***
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2945042Z   gate_network: false
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2945250Z   workspace_keep: node_modules,.venv,venv,vendor
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2945486Z   model_plan: opus
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2945661Z   model_write_tests: opus
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2945865Z   model_implement: sonnet
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2946039Z   model_fix: sonnet
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2946210Z   model_resolve_conflicts: sonnet
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2946404Z   model_review: opus
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2946572Z   max_rounds: 3
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2946732Z   max_same_finding: 2
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2946908Z   max_gate_failures: 3
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2947076Z   max_test_returns: 1
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2947235Z   max_cost_usd: 15
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2947396Z   max_work_minutes: 120
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2947560Z env:
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2947767Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2948086Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2948414Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2948735Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2948959Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2949163Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2949548Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:49:29.2949745Z ##[endgroup]
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:10.0356395Z 着手前のゲート テスト: 終了コード 0
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:29.5486497Z 工程 plan: 終わった（コスト 0.13 USD、合計 0.13 USD）
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:29.5487176Z 工程 plan: トークン 入力 8、出力 1400、キャッシュの読み取り 24679、キャッシュの書き込み 12022。反復 8、19 秒
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:42.7889421Z 工程 write_tests: 終わった（コスト 0.14 USD、合計 0.27 USD）
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:42.7890017Z 工程 write_tests: トークン 入力 6、出力 1103、キャッシュの読み取り 26542、キャッシュの書き込み 14664。反復 6、12 秒
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:43.3770406Z ゲート 失敗の確認: 終了コード 1
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:52.8464611Z 工程 implement: 終わった（コスト 0.08 USD、合計 0.36 USD）
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:52.8465438Z 工程 implement: トークン 入力 6、出力 784、キャッシュの読み取り 30120、キャッシュの書き込み 18301。反復 5、8 秒
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:53.4058270Z ゲート テスト: 終了コード 0
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:50:53.8591942Z ゲート 既存のテストだけのツリー: 終了コード 0
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:05.7663491Z 工程 review: 終わった（コスト 0.09 USD、合計 0.45 USD）
+work	Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:05.7665395Z 工程 review: トークン 入力 6、出力 874、キャッシュの読み取り 15397、キャッシュの書き込み 8373。反復 5、11 秒
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	﻿2026-11-23T13:51:07.6573212Z ##[group]Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6573547Z with:
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6573727Z   name: merge-while-you-sleep-bundle
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6573991Z   path: /home/runner/work/_temp/merge-while-you-sleep/bundle
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6574243Z   retention-days: 1
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6574415Z   if-no-files-found: warn
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6574599Z   compression-level: 6
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6574778Z   overwrite: false
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6574946Z   include-hidden-files: false
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6575173Z   archive: true
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6575330Z env:
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6575536Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6575933Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6576307Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6576629Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6576898Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6577152Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6577372Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.6577572Z ##[endgroup]
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.7727534Z With the provided path, there will be 1 file uploaded
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.7753059Z Artifact name is valid!
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.7753683Z Root directory input is valid!
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.9718761Z Uploading artifact: merge-while-you-sleep-bundle.zip
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:07.9745587Z Beginning upload of artifact content to blob storage
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:08.0375906Z Uploaded bytes 1678
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:08.0542976Z Finished uploading artifact content to blob storage!
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:08.0543736Z SHA256 digest of uploaded artifact is b64bc71a9920729f33d2001d61c26f3bad528da5b3e400a021c4ba449bff0fba
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:08.0544294Z Finalizing artifact upload
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:08.4341646Z Artifact merge-while-you-sleep-bundle successfully finalized. Artifact ID 14824950470
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:08.4342689Z Artifact merge-while-you-sleep-bundle has been successfully uploaded! Final size is 1678 bytes. Artifact ID is 14824950470
+work	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T13:51:08.4343464Z Artifact download URL: https://github.com/shumatsumonobu/merge-while-you-sleep-trial/actions/runs/45187657588/artifacts/14824950470
+work	Post Run shumatsumonobu/mwys-src-check/actions/work@68fa179cef517e7b6e460adb34eea6bf12a1028a	﻿2026-11-23T13:51:08.4481398Z Post job cleanup.
+work	Post Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1	﻿2026-11-23T13:51:08.4954598Z Post job cleanup.
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-23T13:51:08.5949992Z Post job cleanup.
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6659036Z [command]/usr/bin/git version
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6703239Z git version 2.56.1
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6724442Z Temporarily overriding HOME='/home/runner/work/_temp/5d6e4a7a-c24d-4069-8fae-515f6ee9868c' before making global git config changes
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6725467Z Adding repository directory to the temporary git global config as a safe directory
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6726406Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6744968Z Removing SSH command configuration
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6749933Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6777771Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6935715Z Removing HTTP extra header
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6940063Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.6965600Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.7185022Z Removing includeIf entries pointing to credentials config files
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.7188048Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+work	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:08.7212743Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+work	Complete job	﻿2026-11-23T13:51:08.7504330Z Evaluate and set job outputs
+work	Complete job	2026-11-23T13:51:08.7512887Z Set output 'done'
+work	Complete job	2026-11-23T13:51:08.7515408Z Set output 'submit'
+work	Complete job	2026-11-23T13:51:08.7516179Z Set output 'bundle_head'
+work	Complete job	2026-11-23T13:51:08.7516733Z Set output 'automerge'
+work	Complete job	2026-11-23T13:51:08.7517701Z Set output 'work_report'
+work	Complete job	2026-11-23T13:51:08.7518492Z Cleaning up orphan processes
+submit	Set up job	﻿2026-11-23T13:51:14.3991856Z Current runner version: '2.338.2'
+submit	Set up job	2026-11-23T13:51:14.4012289Z ##[group]Runner Image Provisioner
+submit	Set up job	2026-11-23T13:51:14.4013232Z Hosted Compute Agent
+submit	Set up job	2026-11-23T13:51:14.4013899Z Version: 20261111.635
+submit	Set up job	2026-11-23T13:51:14.4014622Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+submit	Set up job	2026-11-23T13:51:14.4015367Z Build Date: 2026-11-11T01:49:01Z
+submit	Set up job	2026-11-23T13:51:14.4016099Z Worker ID: {d9cc7b8d-3653-4459-ab06-3f2ba09c78a3}
+submit	Set up job	2026-11-23T13:51:14.4016822Z Region: us-west-2
+submit	Set up job	2026-11-23T13:51:14.4017425Z Cloud: AWS
+submit	Set up job	2026-11-23T13:51:14.4018011Z ##[endgroup]
+submit	Set up job	2026-11-23T13:51:14.4019536Z ##[group]Operating System
+submit	Set up job	2026-11-23T13:51:14.4020166Z Ubuntu
+submit	Set up job	2026-11-23T13:51:14.4020749Z 24.04.5
+submit	Set up job	2026-11-23T13:51:14.4021301Z LTS
+submit	Set up job	2026-11-23T13:51:14.4021856Z ##[endgroup]
+submit	Set up job	2026-11-23T13:51:14.4022509Z ##[group]Runner Image
+submit	Set up job	2026-11-23T13:51:14.4023123Z Image: ubuntu-24.04
+submit	Set up job	2026-11-23T13:51:14.4023705Z Version: 20261116.133.1
+submit	Set up job	2026-11-23T13:51:14.4024750Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261116.133/images/ubuntu/Ubuntu2404-Readme.md
+submit	Set up job	2026-11-23T13:51:14.4026267Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261116.133
+submit	Set up job	2026-11-23T13:51:14.4027230Z ##[endgroup]
+submit	Set up job	2026-11-23T13:51:14.4028889Z ##[group]GITHUB_TOKEN Permissions
+submit	Set up job	2026-11-23T13:51:14.4030991Z Actions: read
+submit	Set up job	2026-11-23T13:51:14.4031618Z Checks: read
+submit	Set up job	2026-11-23T13:51:14.4032201Z Contents: read
+submit	Set up job	2026-11-23T13:51:14.4032818Z Issues: write
+submit	Set up job	2026-11-23T13:51:14.4033407Z Metadata: read
+submit	Set up job	2026-11-23T13:51:14.4033973Z PullRequests: read
+submit	Set up job	2026-11-23T13:51:14.4034538Z Statuses: read
+submit	Set up job	2026-11-23T13:51:14.4035112Z ##[endgroup]
+submit	Set up job	2026-11-23T13:51:14.4036866Z Secret source: Actions
+submit	Set up job	2026-11-23T13:51:14.4037751Z Cache mode: read
+submit	Set up job	2026-11-23T13:51:14.4038863Z Prepare workflow directory
+submit	Set up job	2026-11-23T13:51:14.4402069Z Prepare all required actions
+submit	Set up job	2026-11-23T13:51:14.4441000Z Getting action download info
+submit	Set up job	2026-11-23T13:51:14.8438170Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+submit	Set up job	2026-11-23T13:51:16.1540987Z Download action repository 'actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333' (SHA:9000827ccba6bdab643e8b6fd33ac0654aef8333)
+submit	Set up job	2026-11-23T13:51:16.4697710Z Download action repository 'shumatsumonobu/mwys-src-check@68fa179cef517e7b6e460adb34eea6bf12a1028a' (SHA:68fa179cef517e7b6e460adb34eea6bf12a1028a)
+submit	Set up job	2026-11-23T13:51:16.8999124Z Complete job name: submit
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-23T13:51:16.9723036Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9724863Z with:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9726170Z   ref: 608b39c744148beaa0be417a650bacb4054632ae
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9727586Z   persist-credentials: false
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9729036Z   fetch-depth: 0
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9730309Z   repository: shumatsumonobu/merge-while-you-sleep-trial
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9737720Z   token: ***
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9738933Z   ssh-strict: true
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9740046Z   ssh-user: git
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9741290Z   clean: true
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9742415Z   sparse-checkout-cone-mode: true
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9743712Z   fetch-tags: false
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9744838Z   show-progress: true
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9745935Z   lfs: false
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9746951Z   submodules: false
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9748036Z   set-safe-directory: true
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9749385Z   allow-unsafe-pr-checkout: false
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9750882Z env:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9752123Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9753969Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9755799Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9757493Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9759033Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9760371Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9761675Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:16.9762905Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.1855188Z Syncing repository: shumatsumonobu/merge-while-you-sleep-trial
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.1856736Z ##[group]Getting Git version info
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.1857336Z Working directory is '/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial'
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.1858655Z [command]/usr/bin/git version
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3152041Z git version 2.56.1
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3163920Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3172619Z Temporarily overriding HOME='/home/runner/work/_temp/e2cdb6a6-020d-47fb-ba47-fe629bff3f8f' before making global git config changes
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3173765Z Adding repository directory to the temporary git global config as a safe directory
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3176818Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3228028Z Deleting the contents of '/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial'
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3230031Z ##[group]Determining repository object format
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3231310Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3231877Z ##[group]Initializing the repository
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3234183Z [command]/usr/bin/git init /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3723218Z hint: Using 'master' as the name for the initial branch. This default branch name
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3724119Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3724750Z hint: to use in all of your new repositories, which will suppress this warning,
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3725193Z hint: call:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3725653Z hint:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3726129Z hint: 	git config --global init.defaultBranch <name>
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3726553Z hint:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3727035Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3727595Z hint: 'development'. The just-created branch can be renamed via this command:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3728087Z hint:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3728802Z hint: 	git branch -m <name>
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3729291Z hint:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3729858Z hint: Disable this message with "git config set advice.defaultBranchName false"
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3730917Z Initialized empty Git repository in /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3738482Z [command]/usr/bin/git remote add origin https://github.com/shumatsumonobu/merge-while-you-sleep-trial
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3796297Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3796974Z ##[group]Disabling automatic garbage collection
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3798039Z [command]/usr/bin/git config --local gc.auto 0
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3822295Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3822920Z ##[group]Setting up auth
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3823351Z Removing SSH command configuration
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3825783Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.3852537Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6039582Z Removing HTTP extra header
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6044379Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6072169Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6220547Z Removing includeIf entries pointing to credentials config files
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6224947Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6263223Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6397258Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6425062Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path /home/runner/work/_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6447863Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6472756Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6495312Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6516371Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6517149Z ##[group]Fetching the repository
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:20.6521507Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.2999411Z From https://github.com/shumatsumonobu/merge-while-you-sleep-trial
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3000248Z  * [new branch]      main       -> origin/main
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3000989Z  * [new branch]      probe/ub-api-43807822558 -> origin/probe/ub-api-43807822558
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3001757Z  * [new branch]      probe/ub-push-43807822558 -> origin/probe/ub-push-43807822558
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3008846Z [command]/usr/bin/git rev-parse --verify --quiet 608b39c744148beaa0be417a650bacb4054632ae^{object}
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3030935Z 608b39c744148beaa0be417a650bacb4054632ae
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3034836Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3035611Z ##[group]Determining the checkout info
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3036461Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3037243Z [command]/usr/bin/git sparse-checkout disable
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3097805Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3121302Z ##[group]Checking out the ref
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3123900Z [command]/usr/bin/git checkout --progress --force 608b39c744148beaa0be417a650bacb4054632ae
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3191554Z Note: switching to '608b39c744148beaa0be417a650bacb4054632ae'.
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3192181Z 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3192509Z You are in 'detached HEAD' state. You can look around, make experimental
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3193049Z changes and commit them, and you can discard any commits you make in this
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3193726Z state without impacting any branches by switching back to a branch.
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3194069Z 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3194320Z If you want to create a new branch to retain commits you create, you may
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3194846Z do so (now or later) by using -c with the switch command. Example:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3195253Z 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3195429Z   git switch -c <new-branch-name>
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3195708Z 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3195870Z Or undo this operation with:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3196087Z 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3196283Z   git switch -
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3196461Z 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3196733Z Turn off this advice by setting config variable advice.detachedHead to false
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3197081Z 
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3197927Z HEAD is now at 608b39c ワークフロー: 導入の手順の形（別のリポジトリの action を uses で呼び出す）に入れ替える
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3203032Z ##[endgroup]
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3235882Z [command]/usr/bin/git log -1 --format=%H
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3254693Z 608b39c744148beaa0be417a650bacb4054632ae
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3260500Z ##[group]Removing auth
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3261154Z Removing SSH command configuration
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3264396Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3287789Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3439469Z Removing HTTP extra header
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3442000Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3464882Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3611363Z Removing includeIf entries pointing to credentials config files
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3612928Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3633475Z includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3634508Z includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3635352Z includeif.gitdir:/github/workspace/.git.path
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3635935Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3640434Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3657555Z /home/runner/work/_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3664983Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-250e6d97\-a08b\-4ca4\-a196\-3ee4a4efc423\.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3689394Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3706415Z /home/runner/work/_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3712746Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-250e6d97\-a08b\-4ca4\-a196\-3ee4a4efc423\.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3736762Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3756456Z /github/runner_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3760455Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-250e6d97\-a08b\-4ca4\-a196\-3ee4a4efc423\.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3783963Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3800613Z /github/runner_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3805083Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-250e6d97\-a08b\-4ca4\-a196\-3ee4a4efc423\.config
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3831320Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3974780Z Removing credentials config '/home/runner/work/_temp/git-credentials-250e6d97-a08b-4ca4-a196-3ee4a4efc423.config'
+submit	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:51:21.3981169Z ##[endgroup]
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	﻿2026-11-23T13:51:21.4166709Z ##[group]Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4167470Z with:
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4167874Z   name: merge-while-you-sleep-bundle
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4168573Z   path: /home/runner/work/_temp/merge-while-you-sleep-bundle
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4169054Z   merge-multiple: false
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4169483Z   repository: shumatsumonobu/merge-while-you-sleep-trial
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4169872Z   run-id: 45187657588
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4170316Z   skip-decompress: false
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4170681Z   digest-mismatch: error
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4171016Z env:
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4171444Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4171975Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4172478Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4172977Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4173391Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4173840Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4174227Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.4174598Z ##[endgroup]
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.5225100Z Downloading single artifact
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.8323477Z Preparing to download the following artifacts:
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:21.8324270Z - merge-while-you-sleep-bundle (ID: 14824950470, Size: 1678, Expected Digest: sha256:b64bc71a9920729f33d2001d61c26f3bad528da5b3e400a021c4ba449bff0fba)
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:22.3957301Z Redirecting to blob download url: https://productionresultssa32.blob.core.windows.net/actions-results/7ddf9341-7aec-8b1d-a4df-fadd36c217b5/workflow-job-run-770b223a-17d4-5c43-a7b1-f577297ea65b/artifacts/c14d80d512c0cffd957339180eb45ce8632736b90af085a672252bb44d6105f6.zip
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:22.3958713Z Starting download of artifact to: /home/runner/work/_temp/merge-while-you-sleep-bundle
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:22.7306140Z (node:2247) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:22.7307764Z (Use `node --trace-deprecation ...` to show where the warning was created)
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:22.7351892Z SHA256 digest of downloaded artifact is b64bc71a9920729f33d2001d61c26f3bad528da5b3e400a021c4ba449bff0fba
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:22.7353076Z Artifact download completed successfully.
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:22.7353694Z Total of 1 artifact(s) downloaded
+submit	Run actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333	2026-11-23T13:51:22.7356256Z Download artifact has finished successfully
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	﻿2026-11-23T13:51:22.7473222Z ##[group]Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7473795Z with:
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7474197Z   app_client_id: <APP_CLIENT_ID>
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7479585Z   app_private_key: ***
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7480031Z   base_commit: 608b39c744148beaa0be417a650bacb4054632ae
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7481866Z   approval: {"issue":36,"title":"center を追加する","source":"template","labeled_by":"shumatsumonobu","labeled_at":"2026-11-23T13:48:55.000Z","criteria":["center(\"ab\", 6) は \"  ab  \" を返す","center(\"abc\", 6) は \" abc  \" を返す（左右で空白の数が合わないときは右を1つ多くする）","center(\"abcdef\", 4) は \"abcdef\" を返す（width 以下に縮めない）","center(\"\", 3) は \"   \" を返す","width が 0 以上の整数でないとき（-1、1.5、NaN）は RangeError を投げる","新しいテストのファイルに node:test のテストがあり、npm test で既存のテストも含めて全部通る"],"out_of_scope":["既存の関数の変更、既存のテストのファイルの変更、全角文字の幅の扱い、s が文字列以外のときの扱い"],"hash":"be2c05c73c45b8d68ba10084550bcf40ed5748a298c58eed07b8406d275200b6"}
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7484066Z   work_report: {"resume":false,"stages":["plan","write_tests","implement","review"],"tests":[{"path":"test/center.test.js","criteria":[1,2,3,4,5,6]}],"suggestions":[],"findings":[],"notes":[],"cost_usd":0.45,"escalation":null}
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7484950Z   bundle_head: 72995b18205ff435e178be086d104df3f3dd522a
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7485394Z   automerge: true
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7485940Z   bundle_path: /home/runner/work/_temp/merge-while-you-sleep-bundle/work.bundle
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7488266Z   github_token: ***
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7488786Z   merge_method: squash
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7489132Z env:
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7489536Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7490105Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7490639Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7491115Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7491674Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7492088Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7492464Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+submit	Run shumatsumonobu/mwys-src-check/actions/submit@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:51:22.7492852Z ##[endgroup]
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-23T13:52:02.3709730Z Post job cleanup.
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4374423Z [command]/usr/bin/git version
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4404945Z git version 2.56.1
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4429197Z Temporarily overriding HOME='/home/runner/work/_temp/b54bf99d-c1ee-499f-aef7-5aadaa769deb' before making global git config changes
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4430467Z Adding repository directory to the temporary git global config as a safe directory
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4432587Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4457224Z Removing SSH command configuration
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4461685Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4485077Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4639797Z Removing HTTP extra header
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4642864Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4665824Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4820145Z Removing includeIf entries pointing to credentials config files
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4824343Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+submit	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T13:52:02.4848027Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+submit	Complete job	﻿2026-11-23T13:52:02.5154969Z Evaluate and set job outputs
+submit	Complete job	2026-11-23T13:52:02.5161118Z Set output 'done'
+submit	Complete job	2026-11-23T13:52:02.5162890Z Set output 'pr_number'
+submit	Complete job	2026-11-23T13:52:02.5163809Z Cleaning up orphan processes
+cleanup	Set up job	﻿2026-11-23T13:52:08.6825343Z Current runner version: '2.338.2'
+cleanup	Set up job	2026-11-23T13:52:08.6844633Z ##[group]Runner Image Provisioner
+cleanup	Set up job	2026-11-23T13:52:08.6845358Z Hosted Compute Agent
+cleanup	Set up job	2026-11-23T13:52:08.6846127Z Version: 20261111.635
+cleanup	Set up job	2026-11-23T13:52:08.6846712Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+cleanup	Set up job	2026-11-23T13:52:08.6847273Z Build Date: 2026-11-11T01:49:01Z
+cleanup	Set up job	2026-11-23T13:52:08.6847786Z Worker ID: {9a4c5b38-6b2a-42e1-af08-48fd99dcb8a8}
+cleanup	Set up job	2026-11-23T13:52:08.6848310Z Region: us-east-1
+cleanup	Set up job	2026-11-23T13:52:08.6848729Z Cloud: AWS
+cleanup	Set up job	2026-11-23T13:52:08.6849102Z ##[endgroup]
+cleanup	Set up job	2026-11-23T13:52:08.6850457Z ##[group]Operating System
+cleanup	Set up job	2026-11-23T13:52:08.6850912Z Ubuntu
+cleanup	Set up job	2026-11-23T13:52:08.6851268Z 24.04.5
+cleanup	Set up job	2026-11-23T13:52:08.6851719Z LTS
+cleanup	Set up job	2026-11-23T13:52:08.6852081Z ##[endgroup]
+cleanup	Set up job	2026-11-23T13:52:08.6852479Z ##[group]Runner Image
+cleanup	Set up job	2026-11-23T13:52:08.6852913Z Image: ubuntu-24.04
+cleanup	Set up job	2026-11-23T13:52:08.6853328Z Version: 20261116.133.1
+cleanup	Set up job	2026-11-23T13:52:08.6854102Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261116.133/images/ubuntu/Ubuntu2404-Readme.md
+cleanup	Set up job	2026-11-23T13:52:08.6855400Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261116.133
+cleanup	Set up job	2026-11-23T13:52:08.6856287Z ##[endgroup]
+cleanup	Set up job	2026-11-23T13:52:08.6857291Z ##[group]GITHUB_TOKEN Permissions
+cleanup	Set up job	2026-11-23T13:52:08.6859156Z Actions: read
+cleanup	Set up job	2026-11-23T13:52:08.6859723Z Issues: write
+cleanup	Set up job	2026-11-23T13:52:08.6860173Z Metadata: read
+cleanup	Set up job	2026-11-23T13:52:08.6860566Z PullRequests: read
+cleanup	Set up job	2026-11-23T13:52:08.6861050Z ##[endgroup]
+cleanup	Set up job	2026-11-23T13:52:08.6862679Z Secret source: Actions
+cleanup	Set up job	2026-11-23T13:52:08.6863344Z Cache mode: read
+cleanup	Set up job	2026-11-23T13:52:08.6864009Z Prepare workflow directory
+cleanup	Set up job	2026-11-23T13:52:08.7222144Z Prepare all required actions
+cleanup	Set up job	2026-11-23T13:52:08.7261104Z Getting action download info
+cleanup	Set up job	2026-11-23T13:52:08.8872625Z Download action repository 'shumatsumonobu/mwys-src-check@68fa179cef517e7b6e460adb34eea6bf12a1028a' (SHA:68fa179cef517e7b6e460adb34eea6bf12a1028a)
+cleanup	Set up job	2026-11-23T13:52:10.8303408Z Complete job name: cleanup
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	﻿2026-11-23T13:52:10.8863372Z ##[group]Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8865007Z with:
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8865607Z   target: run
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8873032Z   needs: {
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	  "preflight": {
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    "result": "success",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    "outputs": {
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "base_commit": "608b39c744148beaa0be417a650bacb4054632ae",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "approval": "{\"issue\":36,\"title\":\"center を追加する\",\"source\":\"template\",\"labeled_by\":\"shumatsumonobu\",\"labeled_at\":\"2026-11-23T13:48:55.000Z\",\"criteria\":[\"center(\\\"ab\\\", 6) は \\\"  ab  \\\" を返す\",\"center(\\\"abc\\\", 6) は \\\" abc  \\\" を返す（左右で空白の数が合わないときは右を1つ多くする）\",\"center(\\\"abcdef\\\", 4) は \\\"abcdef\\\" を返す（width 以下に縮めない）\",\"center(\\\"\\\", 3) は \\\"   \\\" を返す\",\"width が 0 以上の整数でないとき（-1、1.5、NaN）は RangeError を投げる\",\"新しいテストのファイルに node:test のテストがあり、npm test で既存のテストも含めて全部通る\"],\"out_of_scope\":[\"既存の関数の変更、既存のテストのファイルの変更、全角文字の幅の扱い、s が文字列以外のときの扱い\"],\"hash\":\"be2c05c73c45b8d68ba10084550bcf40ed5748a298c58eed07b8406d275200b6\"}",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "proceed": "true",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "done": "false"
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    }
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	  },
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	  "work": {
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    "result": "success",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    "outputs": {
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "work_report": "{\"resume\":false,\"stages\":[\"plan\",\"write_tests\",\"implement\",\"review\"],\"tests\":[{\"path\":\"test/center.test.js\",\"criteria\":[1,2,3,4,5,6]}],\"suggestions\":[],\"findings\":[],\"notes\":[],\"cost_usd\":0.45,\"escalation\":null}",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "done": "false",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "submit": "true",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "bundle_head": "72995b18205ff435e178be086d104df3f3dd522a",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "automerge": "true"
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    }
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	  },
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	  "submit": {
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    "result": "success",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    "outputs": {
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "done": "true",
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	      "pr_number": "37"
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	    }
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	  }
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	}
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8883760Z   github_token: ***
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8884508Z env:
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8885019Z   MERGE_WHILE_YOU_SLEEP_DRAFT_LABEL: merge-while-you-sleep: draft
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8886042Z   MERGE_WHILE_YOU_SLEEP_TRIGGER_LABEL: merge-while-you-sleep: run
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8886884Z   MERGE_WHILE_YOU_SLEEP_ESCALATION_LABEL: merge-while-you-sleep: needs-human
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8887680Z   MERGE_WHILE_YOU_SLEEP_ALLOW_PATHS: src/**,test/**
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8888457Z   MERGE_WHILE_YOU_SLEEP_DENY_PATHS: 
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8888979Z   MERGE_WHILE_YOU_SLEEP_DENY_PATTERNS: 
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8889740Z   MERGE_WHILE_YOU_SLEEP_TEST_PATHS: 
+cleanup	Run shumatsumonobu/mwys-src-check/actions/cleanup@68fa179cef517e7b6e460adb34eea6bf12a1028a	2026-11-23T13:52:10.8890249Z ##[endgroup]
+cleanup	Complete job	﻿2026-11-23T13:52:13.7542777Z Cleaning up orphan processes

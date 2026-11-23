@@ -1,0 +1,306 @@
+probe	Set up job	﻿2026-11-16T04:34:40.6505273Z Current runner version: '2.338.2'
+probe	Set up job	2026-11-16T04:34:40.6527079Z ##[group]Runner Image Provisioner
+probe	Set up job	2026-11-16T04:34:40.6527899Z Hosted Compute Agent
+probe	Set up job	2026-11-16T04:34:40.6528517Z Version: 20261103.629
+probe	Set up job	2026-11-16T04:34:40.6529072Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+probe	Set up job	2026-11-16T04:34:40.6529804Z Build Date: 2026-11-03T17:26:59Z
+probe	Set up job	2026-11-16T04:34:40.6530384Z Worker ID: {d332300d-f0c7-43e4-aedb-5d04355f2719}
+probe	Set up job	2026-11-16T04:34:40.6530965Z Region: westus2
+probe	Set up job	2026-11-16T04:34:40.6531548Z Cloud: Azure
+probe	Set up job	2026-11-16T04:34:40.6532237Z ##[endgroup]
+probe	Set up job	2026-11-16T04:34:40.6533452Z ##[group]Operating System
+probe	Set up job	2026-11-16T04:34:40.6534070Z Ubuntu
+probe	Set up job	2026-11-16T04:34:40.6534541Z 24.04.5
+probe	Set up job	2026-11-16T04:34:40.6535049Z LTS
+probe	Set up job	2026-11-16T04:34:40.6535510Z ##[endgroup]
+probe	Set up job	2026-11-16T04:34:40.6536012Z ##[group]Runner Image
+probe	Set up job	2026-11-16T04:34:40.6536537Z Image: ubuntu-24.04
+probe	Set up job	2026-11-16T04:34:40.6537086Z Version: 20261111.370.1
+probe	Set up job	2026-11-16T04:34:40.6538018Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261111.370/images/ubuntu/Ubuntu2404-Readme.md
+probe	Set up job	2026-11-16T04:34:40.6539544Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261111.370
+probe	Set up job	2026-11-16T04:34:40.6540378Z ##[endgroup]
+probe	Set up job	2026-11-16T04:34:40.6541412Z ##[group]GITHUB_TOKEN Permissions
+probe	Set up job	2026-11-16T04:34:40.6543374Z Contents: read
+probe	Set up job	2026-11-16T04:34:40.6543902Z Metadata: read
+probe	Set up job	2026-11-16T04:34:40.6544484Z ##[endgroup]
+probe	Set up job	2026-11-16T04:34:40.6546254Z Secret source: Actions
+probe	Set up job	2026-11-16T04:34:40.6547169Z Cache mode: write
+probe	Set up job	2026-11-16T04:34:40.6547780Z Prepare workflow directory
+probe	Set up job	2026-11-16T04:34:40.6812501Z Prepare all required actions
+probe	Set up job	2026-11-16T04:34:40.6850676Z Getting action download info
+probe	Set up job	2026-11-16T04:34:40.9953618Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+probe	Set up job	2026-11-16T04:34:41.2682128Z Complete job name: probe
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-16T04:34:41.3453386Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3454258Z with:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3454679Z   persist-credentials: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3455197Z   repository: shumatsumonobu/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3458600Z   token: ***
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3458988Z   ssh-strict: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3459367Z   ssh-user: git
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3459730Z   clean: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3460114Z   sparse-checkout-cone-mode: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3460558Z   fetch-depth: 1
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3460926Z   fetch-tags: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3461306Z   show-progress: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3461685Z   lfs: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3462189Z   submodules: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3462590Z   set-safe-directory: true
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3463020Z   allow-unsafe-pr-checkout: false
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.3463620Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6035105Z Syncing repository: shumatsumonobu/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6036866Z ##[group]Getting Git version info
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6037753Z Working directory is '/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial'
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6038878Z [command]/usr/bin/git version
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6123116Z git version 2.56.1
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6140159Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6149277Z Temporarily overriding HOME='/home/runner/work/_temp/64e4553e-99b9-43de-bf11-ebd035e2fd6d' before making global git config changes
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6151149Z Adding repository directory to the temporary git global config as a safe directory
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6155932Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6203054Z Deleting the contents of '/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial'
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6204883Z ##[group]Determining repository object format
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6205998Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6206900Z ##[group]Initializing the repository
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6208237Z [command]/usr/bin/git init /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6326516Z hint: Using 'master' as the name for the initial branch. This default branch name
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6327908Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6328746Z hint: to use in all of your new repositories, which will suppress this warning,
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6329368Z hint: call:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6329724Z hint:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6330243Z hint: 	git config --global init.defaultBranch <name>
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6330894Z hint:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6331392Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6332350Z hint: 'development'. The just-created branch can be renamed via this command:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6333077Z hint:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6333631Z hint: 	git branch -m <name>
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6334235Z hint:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6335078Z hint: Disable this message with "git config set advice.defaultBranchName false"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6336661Z Initialized empty Git repository in /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6347180Z [command]/usr/bin/git remote add origin https://github.com/shumatsumonobu/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6397238Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6398265Z ##[group]Disabling automatic garbage collection
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6400319Z [command]/usr/bin/git config --local gc.auto 0
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6436575Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6438150Z ##[group]Setting up auth
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6438830Z Removing SSH command configuration
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6439485Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6469843Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6826378Z Removing HTTP extra header
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6831113Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.6869319Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7070390Z Removing includeIf entries pointing to credentials config files
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7074619Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7121872Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7345519Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7389972Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path /home/runner/work/_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7428127Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7466554Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7505382Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7541073Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7542613Z ##[group]Fetching the repository
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:41.7547938Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +3faf897348c09830479d64edebaf73c660d2950d:refs/remotes/origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2364547Z From https://github.com/shumatsumonobu/merge-while-you-sleep-trial
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2365953Z  * [new ref]         3faf897348c09830479d64edebaf73c660d2950d -> origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2372441Z [command]/usr/bin/git branch --list --remote origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2412644Z   origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2418977Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2449639Z 3faf897348c09830479d64edebaf73c660d2950d
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2453414Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2454072Z ##[group]Determining the checkout info
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2454907Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2458220Z [command]/usr/bin/git sparse-checkout disable
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2517924Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2557029Z ##[group]Checking out the ref
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2557838Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2644924Z Switched to a new branch 'main'
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2649717Z branch 'main' set up to track 'origin/main'.
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2654570Z ##[endgroup]
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2698702Z [command]/usr/bin/git log -1 --format=%H
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2730284Z 3faf897348c09830479d64edebaf73c660d2950d
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2738034Z ##[group]Removing auth
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2738518Z Removing SSH command configuration
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2741781Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2779768Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2983542Z Removing HTTP extra header
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.2986574Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3025117Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3233582Z Removing includeIf entries pointing to credentials config files
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3235934Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3281502Z includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3283447Z includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3285096Z includeif.gitdir:/github/workspace/.git.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3286196Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3291313Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3324437Z /home/runner/work/_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3343464Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-907fef59\-6fc8\-4e37\-9935\-8e97c3860dce\.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3384629Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3415208Z /home/runner/work/_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3424129Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-907fef59\-6fc8\-4e37\-9935\-8e97c3860dce\.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3463717Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3494013Z /github/runner_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3501489Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-907fef59\-6fc8\-4e37\-9935\-8e97c3860dce\.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3540566Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3570273Z /github/runner_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3576831Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-907fef59\-6fc8\-4e37\-9935\-8e97c3860dce\.config
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3615056Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3814643Z Removing credentials config '/home/runner/work/_temp/git-credentials-907fef59-6fc8-4e37-9935-8e97c3860dce.config'
+probe	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:34:42.3822748Z ##[endgroup]
+probe	Run node .github/probe/probe.mjs	﻿2026-11-16T04:34:42.4025308Z ##[group]Run node .github/probe/probe.mjs
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:42.4026173Z [36;1mnode .github/probe/probe.mjs[0m
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:42.4047710Z shell: /usr/bin/bash -e {0}
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:42.4048403Z env:
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:42.4049836Z   CLAUDE_CODE_OAUTH_TOKEN: ***
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:42.4050511Z ##[endgroup]
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:55.4990762Z setup.srt_npm_ci: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:55.5246864Z setup.apply_seccomp: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0097751Z gate.exit: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0098892Z gate.docker: socket_absent
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0099256Z gate.seccomp: Seccomp: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0099616Z gate.proc_self: readable
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0099934Z gate.proc_pids: 5
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0100424Z gate.proc_canary_environ: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0100934Z gate.proc_canary_pid_visible: no
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0101437Z gate.write_git: blocked
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0101947Z gate.write_deps: blocked
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0102559Z gate.read_deps: readable
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0102991Z gate.home_entries: 1
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0104541Z gate.home_canary: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0105053Z gate.runner_temp_canary: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0105428Z gate.tmp_canary: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0105948Z gate.opt_canary: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0106572Z gate.symlink_rt: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0107158Z gate.symlink_home: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0107532Z gate.symlink_environ: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0107907Z gate.symlink_tmp: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0108263Z gate.mkdir_dot_claude: created
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0108661Z gate.symlink_dot_github: exists_before
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0109076Z gate.network: 000failed
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0109453Z gate.which_node: /usr/local/bin/node
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0109886Z gate.which_npm: /usr/local/bin/npm
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0110341Z gate.which_python3: /usr/bin/python3
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0110719Z gate.which_go: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0111064Z gate.which_cargo: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0111746Z gate.which_rustc: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0112559Z gate.which_pip3: /usr/bin/pip3
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0112947Z gate.tool_npm_test: ok
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0113305Z gate.tool_python: ok
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0113717Z gate.tool_go_build: fail:/gate.sh: 27: go: not found
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0114196Z gate.tool_cargo_build: fail:
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0114578Z gate.spawned_bg: yes
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:34:58.0807635Z claude_nolock.placeholders: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:04.6859388Z claude_nolock.tool: Bash echo ok-from-sandbox | error=true | canary=none | Exit code 1 bwrap: Can't create file at /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/.git/config.lock: Read-only file system
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:04.6860782Z claude_nolock.tool: StructuredOutput  | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:04.6861248Z claude_nolock.exit: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:04.6861542Z claude_nolock.cost: 0.020214
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:04.6913403Z claude_sb.placeholders: .git/config.lock,.git/config.worktree.lock
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5033385Z claude_sb.tool: Bash sh probe-sb.sh > probe-sb.out 2>&1 | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5035702Z claude_sb.tool: Read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-rt | error=true | canary=none | Permission to read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-rt has been denied.
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5038095Z claude_sb.tool: Read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-home | error=true | canary=none | Permission to read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-home has been denied.
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5040365Z claude_sb.tool: Read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-environ | error=true | canary=none | Permission to read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-environ has been denied.
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5042899Z claude_sb.tool: Read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-tmp | error=true | canary=none | /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-tmp resolves through a symlink to /tmp/probe-canary.txt, which is outside /home/r
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5044762Z claude_sb.tool: Read /proc/2699/environ | error=true | canary=none | <tool_use_error>File is in a directory that is denied by your permission settings.</tool_use_error>
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5046210Z claude_sb.tool: Read /home/runner/work/_temp/probe-canary.txt | error=true | canary=none | <tool_use_error>File is in a directory that is denied by your permission settings.</tool_use_error>
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5048032Z claude_sb.tool: Read /tmp/probe-canary.txt | error=true | canary=none | /tmp/probe-canary.txt is outside /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial; the permissions.blockReadsOutsideWorkingDirectories 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5049578Z claude_sb.tool: Read /home/runner/.probe-canary | error=true | canary=none | <tool_use_error>File is in a directory that is denied by your permission settings.</tool_use_error>
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5050192Z claude_sb.tool: StructuredOutput  | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5050677Z claude_sb.exit: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5050936Z claude_sb.cost: 0.0338076
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5096590Z claude_sb.read.bash_ran: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5096968Z claude_sb.read.home_direct: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5097295Z claude_sb.read.link_environ: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5097614Z claude_sb.read.link_home: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5097931Z claude_sb.read.link_rt: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5098231Z claude_sb.read.link_tmp: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5098553Z claude_sb.read.proc_environ: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5098882Z claude_sb.read.runner_temp: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5099218Z claude_sb.read.tmp_direct: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5099554Z claude_sb.canary_in_output: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5099871Z sandbox.docker: socket_absent
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5100214Z sandbox.seccomp: Seccomp: 2
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5100512Z sandbox.proc_self: readable
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5100780Z sandbox.proc_pids: 6
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5101035Z sandbox.proc_canary_environ: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5101342Z sandbox.proc_canary_pid_visible: no
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5101654Z sandbox.write_git: blocked
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5101928Z sandbox.write_deps: blocked
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5102459Z sandbox.read_deps: readable
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5102733Z sandbox.home_entries: 1
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5102994Z sandbox.home_canary: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5103269Z sandbox.runner_temp_canary: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5103564Z sandbox.tmp_canary: 1
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5103834Z sandbox.opt_canary: 1
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5104097Z sandbox.symlink_rt: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5104347Z sandbox.symlink_home: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5104597Z sandbox.symlink_environ: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5104856Z sandbox.symlink_tmp: 1
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5105109Z sandbox.mkdir_dot_claude: exists_before
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5105667Z sandbox.symlink_dot_github: exists_before
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5105981Z sandbox.network: 000failed
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5106260Z sandbox.which_node: /usr/local/bin/node
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5106577Z sandbox.which_npm: /usr/local/bin/npm
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5106886Z sandbox.which_python3: /usr/bin/python3
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5107189Z sandbox.which_go: /usr/bin/go
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5107455Z sandbox.which_cargo: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5107711Z sandbox.which_rustc: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5107973Z sandbox.which_pip3: /usr/bin/pip3
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5108263Z sandbox.tool_npm_test: ok
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5108525Z sandbox.tool_python: ok
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5108786Z sandbox.tool_go_build: ok
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5109039Z sandbox.tool_cargo_build: fail:
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5109319Z sandbox.spawned_bg: yes
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5109569Z claude_sb.sb_out_exists: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5345279Z after_claude.dot_claude_exists: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:22.5352944Z skill_control.placeholders: .git/config.lock,.git/config.worktree.lock
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2636478Z skill_control.tool: Skill probe | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2637133Z skill_control.tool: Bash echo probe-skill-ran | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2638789Z skill_control.tool: Read /tmp/probe-canary.txt | error=true | canary=none | /tmp/probe-canary.txt is outside /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial; the permissions.blockReadsOutsideWorkingDirectories 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2641239Z skill_control.tool: Read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-tmp | error=true | canary=none | /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-tmp resolves through a symlink to /tmp/probe-canary.txt, which is outside /home/r
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2643065Z skill_control.tool: StructuredOutput  | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2643526Z skill_control.exit: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2643805Z skill_control.cost: 0.0350755
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2669124Z skill_control.skill_invoked: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2669544Z skill_control.bash_ran: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2669773Z skill_control.tmp_direct: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2670009Z skill_control.link_tmp: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2670220Z skill_control.canary_in_output: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2670442Z skill_control.skill_hook_fired: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2735168Z skill_control.settings_hook_fired: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:29.2735873Z skill_test.placeholders: .git/config.lock,.git/config.worktree.lock
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8333506Z skill_test.tool: Skill probe | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8334146Z skill_test.tool: Bash echo probe-skill-ran | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8339819Z skill_test.tool: Read /tmp/probe-canary.txt | error=true | canary=none | /tmp/probe-canary.txt is outside /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial; the permissions.blockReadsOutsideWorkingDirectories 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8342324Z skill_test.tool: Read /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-tmp | error=true | canary=none | /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial/link-tmp resolves through a symlink to /tmp/probe-canary.txt, which is outside /home/r
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8343920Z skill_test.tool: StructuredOutput  | error=false | canary=none | 
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8344359Z skill_test.exit: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8344545Z skill_test.cost: 0.03537760000000001
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8373558Z skill_test.skill_invoked: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8373901Z skill_test.bash_ran: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8374214Z skill_test.tmp_direct: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8374521Z skill_test.link_tmp: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8374814Z skill_test.canary_in_output: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8375141Z skill_test.skill_hook_fired: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8375451Z skill_test.settings_hook_fired: false
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8591447Z cgroup.mkdir: 0
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:35.8798470Z cgroup.kill_file: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:37.4445855Z cgroup.before_kill: running
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:38.4893020Z cgroup.after_kill: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:38.5094521Z host.docker_sock: true
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:38.5278124Z host.which_go: /usr/bin/go
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:38.5453505Z host.which_cargo: none
+probe	Run node .github/probe/probe.mjs	2026-11-16T04:35:38.5454847Z host.gate_path: /snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-16T04:35:38.5861231Z Post job cleanup.
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6546364Z [command]/usr/bin/git version
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6616567Z git version 2.56.1
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6642684Z Copying '/home/runner/.gitconfig' to '/home/runner/work/_temp/6525e63e-2815-49d9-8c6c-829d6e3ab5af/.gitconfig'
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6649782Z Temporarily overriding HOME='/home/runner/work/_temp/6525e63e-2815-49d9-8c6c-829d6e3ab5af' before making global git config changes
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6650549Z Adding repository directory to the temporary git global config as a safe directory
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6654285Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/merge-while-you-sleep-trial/merge-while-you-sleep-trial
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6692235Z Removing SSH command configuration
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6693969Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6739323Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6956426Z Removing HTTP extra header
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.6962730Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.7002495Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.7219296Z Removing includeIf entries pointing to credentials config files
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.7224836Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+probe	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-16T04:35:38.7266187Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+probe	Complete job	﻿2026-11-16T04:35:38.7607351Z Cleaning up orphan processes

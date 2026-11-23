@@ -1,0 +1,9 @@
+{
+  "name": "merge-while-you-sleep-figure",
+  "private": true,
+  "description": "README の図の HTML を PNG に変換する道具（このリポジトリを保守するときだけ使う）",
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.59.1"
+  }
+}

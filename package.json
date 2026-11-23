@@ -1,0 +1,12 @@
+{
+  "name": "merge-while-you-sleep",
+  "private": true,
+  "license": "MIT",
+  "description": "Issue からマージまでを Claude Code が自走する GitHub Actions の骨格。実行時の依存は持たない（このファイルは開発時のテストのため）",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}
